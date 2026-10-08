@@ -13,12 +13,13 @@ class Book {
   });
 
   /// 从 JSON Map 构造 Book（正向解析）。
+  /// 字段缺失时使用默认值，保证健壮性。
   factory Book.fromJson(Map<String, dynamic> json) {
     return Book(
-      id: json['id'] as String,
-      title: json['title'] as String,
-      category: json['category'] as String,
-      borrowCount: json['borrowCount'] as int,
+      id: (json['id'] ?? '') as String,
+      title: (json['title'] ?? '未知书名') as String,
+      category: (json['category'] ?? '未分类') as String,
+      borrowCount: (json['borrowCount'] ?? 0) as int,
     );
   }
 
