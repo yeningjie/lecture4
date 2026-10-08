@@ -1,0 +1,14 @@
+[
+  {"id": "B001", "title": "Flutter实战指南", "category": "科技", "borrowCount": 128},
+  {"id": "B002", "title": "Dart语言精粹", "category": "科技", "borrowCount": 95},
+  {"id": "B003", "title": "红楼梦", "category": "文学", "borrowCount": 210},
+  {"id": "B004", "title": "百年孤独", "category": "文学", "borrowCount": 156},
+  {"id": "B005", "title": "万历十五年", "category": "历史", "borrowCount": 88},
+  {"id": "B006", "title": "史记选读", "category": "历史", "borrowCount": 142},
+  {"id": "B007", "title": "艺术的故事", "category": "艺术", "borrowCount": 67},
+  {"id": "B008", "title": "中国书法史", "category": "艺术", "borrowCount": 43},
+  {"id": "B009", "title": "小王子", "category": "儿童", "borrowCount": 198},
+  {"id": "B010", "title": "夏洛的网", "category": "儿童", "borrowCount": 134},
+  {"id": "B011", "title": "算法导论", "category": "科技", "borrowCount": 110},
+  {"id": "B012", "title": "人类简史", "category": "历史", "borrowCount": 175}
+]
